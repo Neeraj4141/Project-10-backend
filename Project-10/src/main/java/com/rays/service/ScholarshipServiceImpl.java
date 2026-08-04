@@ -8,6 +8,10 @@ import com.rays.common.BaseServiceImpl;
 import com.rays.dao.ScholarshipDAOInt;
 import com.rays.dto.ScholarshipDTO;
 
+/**
+ * @author Neeraj Mewada
+ *
+ */
 @Service
 @Transactional
 public class ScholarshipServiceImpl extends BaseServiceImpl<ScholarshipDTO, ScholarshipDAOInt>

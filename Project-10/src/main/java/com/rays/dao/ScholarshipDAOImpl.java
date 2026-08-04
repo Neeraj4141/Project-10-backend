@@ -12,6 +12,10 @@ import org.springframework.stereotype.Repository;
 import com.rays.common.BaseDAOImpl;
 import com.rays.dto.ScholarshipDTO;
 
+/**
+ * @author Neeraj Mewada
+ *
+ */
 @Repository
 public class ScholarshipDAOImpl extends BaseDAOImpl<ScholarshipDTO> implements ScholarshipDAOInt {
 

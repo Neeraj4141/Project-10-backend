@@ -20,6 +20,10 @@ import com.rays.service.CourseServiceInt;
 import com.rays.service.FacultyServiceInt;
 import com.rays.service.SubjectServiceInt;
 
+/**
+ * @author Neeraj Mewada
+ *
+ */
 @RestController
 @RequestMapping(value = "Faculty")
 public class FacultyCtl extends BaseCtl<FacultyForm, FacultyDTO, FacultyServiceInt> {

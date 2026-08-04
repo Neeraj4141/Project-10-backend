@@ -17,6 +17,10 @@ import com.rays.dto.CourseDTO;
 import com.rays.dto.FacultyDTO;
 import com.rays.dto.SubjectDTO;
 
+/**
+ * @author Neeraj Mewada
+ *
+ */
 @Repository
 public class FacultyDAOImpl extends BaseDAOImpl<FacultyDTO> implements FacultyDAOInt {
 

@@ -8,6 +8,10 @@ import com.rays.dto.ScholarshipDTO;
 import com.rays.form.ScholarshipForm;
 import com.rays.service.ScholarshipServiceInt;
 
+/**
+ * @author Neeraj Mewada
+ *
+ */
 @RestController
 @RequestMapping(value = "Scholarship")
 public class ScholarshipCtl extends BaseCtl<ScholarshipForm, ScholarshipDTO, ScholarshipServiceInt> {

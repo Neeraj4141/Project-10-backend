@@ -8,6 +8,10 @@ import javax.persistence.Table;
 
 import com.rays.common.BaseDTO;
 
+/**
+ * @author Neeraj Mewada
+ *
+ */
 @Entity
 @Table(name = "scholarship")
 public class ScholarshipDTO extends BaseDTO {

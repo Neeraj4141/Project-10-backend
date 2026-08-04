@@ -9,6 +9,10 @@ import com.rays.common.BaseDTO;
 import com.rays.common.BaseForm;
 import com.rays.dto.ScholarshipDTO;
 
+/**
+ * @author Neeraj Mewada
+ *
+ */
 public class ScholarshipForm extends BaseForm {
 
 	@NotEmpty(message = "scholarshipName is Required")
