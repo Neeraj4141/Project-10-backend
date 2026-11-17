@@ -25,7 +25,8 @@ public class SpringBootProject10Application {
 		WebMvcConfigurer w = new WebMvcConfigurer() {
 			  @Override
 	            public void addCorsMappings(CorsRegistry registry) {
-
+				 
+System.out.println("CORS CONFIGURATION");
 	              registry.addMapping("/**")
 	        .allowedOrigins("*")
 	        .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
